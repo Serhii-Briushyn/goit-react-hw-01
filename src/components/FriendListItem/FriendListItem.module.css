@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  width: 120px;
+  border: 2px solid #1c1d20;
+  border-radius: 12px;
+}
+
+.avatar {
+  width: 100%;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.status_on {
+  color: green;
+}
+
+.status_off {
+  color: red;
+}
